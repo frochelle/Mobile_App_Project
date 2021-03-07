@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".accounts_activity">
+
+  <TextView
+      android:id="@+id/text_view_result"
+      android:layout_width="314dp"
+      android:layout_height="504dp"
+      android:textColor="@android:color/black"
+      android:textSize="15sp" />
+
+  <Button
+      android:id="@+id/button_parse"
+      android:layout_width="119dp"
+      android:layout_height="64dp"
+      android:layout_marginVertical="20dp"
+      android:text="refresh" />
+
+</LinearLayout>
